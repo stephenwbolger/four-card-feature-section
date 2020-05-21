@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
 
+html {
+	font-size:62.5%;
+}
 body {
-	font:62.5% 'Poppins', sans-serif;
+	font:1em 'Poppins', sans-serif;
 	background:rgba(250,250,250,1);
 	padding:0 3.2em; /* 0 32px @ 10px */
 }
@@ -11,12 +14,12 @@ body {
 	text-align:center;
 	color:rgba(77,79,98,1);
 	max-width:54em; /* 540px @10px */
-	margin:8.5em auto 7.6em auto; /* 85px auto 76px auto @ 10px */
+	margin:8.5rem auto 7.6rem auto; /* 85px auto 76px auto @ 10px */
 }
 .intro h1 {
 	font-weight:200;
 	font-size:2.4em; /* 24px @ 10px */
-	margin:0 0 16px 0;
+	margin:0 0 1.6rem 0;
 }
 .intro h1 span {
 	display:block;
@@ -33,20 +36,20 @@ body {
 .boxes-wrapper {
   display:flex;
 	max-width:111em; /* 1110px @ 10px */
-	margin:0 auto 7.8em auto; /* 0 auto 78px auto @ 10px */
+	margin:0 auto 7.8rem auto; /* 0 auto 78px auto @ 10px */
 	flex-direction:column;
 }
 .box {
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-	margin:0 0 2.5em 0; /* 0 0 25px 0 @ 10px */
+	margin:0 0 2.5rem 0; /* 0 0 25px 0 @ 10px */
 }
 .box .content {
 	display:flex;
 	flex-direction:column;
 	min-height:20em; /* 200px @ 10px */
-	margin-bottom:2.5em; /* 25px @ 10px */
+	margin-bottom:2.5rem; /* 25px @ 10px */
 	padding:2.8em; /* 28px @ 10px */
 	background:rgba(250,250,250,1);
 	box-shadow:0 15px 30px -11px rgba(131,166,210,.5);
@@ -91,10 +94,10 @@ body {
 /* Desktop */
 @media all and (min-width:768px) {
 	.intro {
-		margin:8em auto 6.4em auto; /* 80px auto 64px auto @ 10px */
+		margin:8rem auto 6.4rem auto; /* 80px auto 64px auto @ 10px */
 	}
 	.intro h1 {
-		font-size:3.6em; /* 36px @ 10px */
+		font-size:3.6rem; /* 36px @ 10px */
 	}
 	.intro h1 span {
 		display:block;
@@ -106,13 +109,13 @@ body {
 	}
 	.box {
 		flex:1;
-		margin:0 1.5em; /* 0 15px @ 10px */
+		margin:0 1.5rem; /* 0 15px @ 10px */
 	}
 	.box .content {
-		margin-bottom:3em; /* 30px @ 10px */
+		margin-bottom:3rem; /* 30px @ 10px */
 		padding:3.2em; /* 32px @ 10px */
 	}
 	.box .content h2 {
-		margin-bottom:0.8em; /* 8px @ 10px */
+		margin-bottom:0.8rem; /* 8px @ 10px */
 	}
 }
