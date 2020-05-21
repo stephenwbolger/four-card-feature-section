@@ -97,7 +97,7 @@ body {
 		margin:8rem auto 6.4rem auto; /* 80px auto 64px auto @ 10px */
 	}
 	.intro h1 {
-		font-size:3.6rem; /* 36px @ 10px */
+		font-size:3.6em; /* 36px @ 10px */
 	}
 	.intro h1 span {
 		display:block;
